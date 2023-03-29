@@ -1,0 +1,81 @@
+*{
+  text-align: center;
+  font-family: RobotoCondensed-Regular !important;
+}
+
+.tip {
+  width: 40%;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #ccc;
+}
+
+.tip-up {
+  top: -25px; 
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.tip-down {
+  top: -25px; 
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.tip-left {
+  top: -25px; 
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.tip-right {
+  top: -25px; 
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;  
+}
+
+.dialogbox .body {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: #DADADA;
+  border-radius: 3px;
+  border: 5px solid #ccc;
+}
+
+.body .message {
+  position: relative;
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
+}
+
+.displayed{
+  position: relative;
+  border: solid;
+  border-color: #555;
+  border-radius: 2px;
+  border-top-left-radius: 1px;
+}
+.toolbar-title{
+  font-size: 25px;
+  font-family: RobotoCondensed-Bold !important;
+  color: turquoise;
+  text-align: center;
+  margin-right: 60px;
+}

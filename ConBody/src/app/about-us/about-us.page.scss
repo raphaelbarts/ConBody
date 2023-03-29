@@ -1,0 +1,66 @@
+*{
+    text-align: center;
+    font-family: RobotoCondensed-Regular !important;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    color: #30D5C8;
+  }
+  
+  .about-text {
+    text-align: center;
+    background-color: #000;
+    color: white;
+  }
+  
+  .con-text {
+    text-align: center;
+    color: #30D5C8;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  *{
+    font-family: RobotoCondensed-Regular !important;
+  }
+  /* subtitle above the title */
+  ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  
+  ion-card {
+    --background: #000;
+    --color: #9efff0;
+  }
+  
+  ion-card-title {
+    --color: #52ffe4;
+    text-align: center;
+  }
+  
+  ion-card-subtitle {
+    --color: white;
+    text-align: center;
+  }
+  ion-card-content {
+    text-align: center;
+  }
+  .toolbar-title{
+    font-size: 25px;
+    font-family: RobotoCondensed-Bold !important;
+    color: turquoise;
+    text-align: center;
+    margin-right: 60px;
+}

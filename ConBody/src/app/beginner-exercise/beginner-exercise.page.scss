@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    font-family: RobotoCondensed-Regular !important;
+}
+.image1{
+    height: 150px;
+    width: 100%;
+}
+.image2{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+}
+.ioncard1, .ioncard2{
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.ioncard1:hover{
+    opacity: 1.0;
+    transform:scale(1.1);
+}
+.ioncard2{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.labels{
+    font-size: 20px;
+    color: turquoise;
+}
+ion-card-title{
+    font-size:25px;
+}
+.toolbar-title{
+    font-size: 25px;
+    font-family: RobotoCondensed-Bold !important;
+    color: turquoise;
+    padding-top: 15px;
+}
+ion-searchbar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ion-card-subtitle{
+    font-size: 20px;
+}
+ion-item-divider{
+    border-radius: 10px;
+}

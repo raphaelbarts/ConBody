@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-toolbar>
+      <ion-title class="toolbar-title">About us</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <div class="container">
+    <div class="dialogbox">
+      <div class="body">
+        <span class="tip tip-up"></span>
+        <div class="message">
+          <div><img class="displayed" src="../../assets/img/usercommentpicture.png" height="50 px" width="50 px"/></div>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque inventore officia! Quaerat iure neque officiis, inventore consectetur vero asperiores temporibus quam laboriosam voluptas tempore consequatur nobis, provident error nesciunt?.</span>
+        </div>
+      </div>
+    </div>
+    <div class="dialogbox">
+      <div class="body">
+        <span class="tip tip-down"></span>
+        <div class="message">
+          <div><img class="displayed" src="../../assets/img/usercommentpicture.png" height="50 px" width="50 px"/></div>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellat dolorum, libero assumenda corporis, in, est voluptatum minima at deleniti incidunt sequi accusantium officiis maiores sit eligendi et. Dignissimos, quod..</span>
+        </div>
+      </div>
+    </div>
+    <div class="dialogbox">
+      <div class="body">
+        <span class="tip tip-left"></span>
+        <div class="message">
+          <div><img class="displayed" src="../../assets/img/usercommentpicture.png" height="50 px" width="50 px"/></div>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquid porro reiciendis molestiae quis ullam magnam ex debitis facilis, consectetur laborum eaque aperiam harum at quisquam a ad, explicabo beatae!.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <form action="/action_page.php">
+    <label for="freeform">Submit an anonymous comment</label>
+  <br>
+  <textarea id="freeform" name="freeform" rows="4" cols="50">
+  </textarea><br><br>
+  </form>
+  <div class="ion-text-center">
+    <ion-button color="primary" routerLink="/page-name">Submit comment</ion-button>
+  </div>
+  </ion-content>

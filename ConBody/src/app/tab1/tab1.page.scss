@@ -1,0 +1,55 @@
+*{
+    font-family: RobotoCondensed-Regular !important;
+  }
+  /* subtitle above the title */
+  ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  
+  ion-card {
+    --background: #000;
+    --color: #9efff0;
+  }
+  
+  ion-card-title {
+    color: turquoise;
+    font-family: RobotoCondensed-Bold !important;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  ion-card-subtitle {
+    --color: white;
+    text-align: center;
+  }
+  ion-card-content {
+    text-align: center;
+  }
+  
+  .music-button {
+    text-align: center;
+  }
+  
+  .workout-button {
+    text-align: center;
+  }
+.toolbar-title{
+    font-size: 25px;
+    font-family: RobotoCondensed-Bold !important;
+    color: turquoise;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 10px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border: black 2px solid;
+    margin-right: 60px;
+}
+ion-toolbar {
+    --background: url('../../assets/img/conbodytoolbar.png') no-repeat fixed center; 
+    height: 110px;
+    opacity: 1;
+ }

@@ -1,0 +1,69 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="8">
+          <ion-title class="toolbar-title"> Workouts </ion-title>
+        </ion-col>
+        <ion-col size="2">
+          <ion-avatar class="logo"><img src="../../assets/img/conbodylogo.png"/></ion-avatar>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+<div>
+  <ion-card>
+    <img src="../../assets/img/gymbody1.jpg" class="beginner"/>
+    <ion-card-header>
+      <ion-card-title>Beginner</ion-card-title>
+      <ion-card-subtitle>
+        What seems impossible today will one day become your warm-up. Everyone starts as a beginner, here are routines suitable for Newbies
+     </ion-card-subtitle>
+    </ion-card-header>
+  <div class="beginner-button">
+  <ion-button fill="clear">Go to Beginner exercises</ion-button>
+  </div>
+  <ion-tab-button tab="tab2">
+    <ion-icon name="arrow-forward-outline"></ion-icon>
+  </ion-tab-button>
+</ion-card>
+</div>
+
+<div style="width: 100%; border-top: 1px solid #d4d4d4; margin: 8px 0;">
+<ion-card>
+  <img src="../../assets/img/gymbody2.jpg" class="intermediate"/>
+  <ion-card-header>
+    <ion-card-title>Intermediate</ion-card-title>
+    <ion-card-subtitle>I don’t count my sit-ups. I only start counting when it starts hurting because they’re the only ones that count</ion-card-subtitle>
+  </ion-card-header>
+  <div class="intermediate-button">
+<ion-button fill="clear">Go to Intermediate Exercises</ion-button>
+  </div>
+<ion-tab-button tab="tab3">
+  <ion-icon name="arrow-forward-outline"></ion-icon>
+</ion-tab-button>
+
+</ion-card>
+</div>
+
+<div style="width: 100%; border-top: 1px solid #d4d4d4; margin: 8px 0;">
+<ion-card>
+  <img src="../../assets/img/gymbody3.jpg" class="advance"/>
+  <ion-card-header>
+    <ion-card-title>Advanced</ion-card-title>
+    <ion-card-subtitle>You have to push past your perceived limits, push past that point you thought was as far as you can go. Don’t limit your challenges. Challenge your limits.</ion-card-subtitle>
+  </ion-card-header>
+  <div class="advance-button">
+    <ion-button fill="clear">Go to Advance Exercises</ion-button>
+      </div>
+    <ion-tab-button tab="tab3">
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </ion-tab-button>
+</ion-card>
+</div>
+</ion-content>
